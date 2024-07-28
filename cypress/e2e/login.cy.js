@@ -7,7 +7,7 @@ describe('Login', () => {
     beforeEach('Acessar página de login', () => {
         commum_page.acessarLogin()
     })
-    it('Login com campo e-mail vazio', (message) => {
+    it.only('Login com campo e-mail vazio', () => {
         login_page.botaoLogin()
         login_page.entradaInvalida('E-mail inválido.')
     })
