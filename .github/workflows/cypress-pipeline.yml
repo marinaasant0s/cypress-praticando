@@ -10,7 +10,7 @@ on:
 jobs:
   cypress-run:
     #máquina que será executada
-    runs-on: linux-latest
+    runs-on: ubuntu-latest
 
     #passo a passo para rodar os testes
     steps:
