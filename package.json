@@ -1,7 +1,7 @@
 {
   "name": "cypress-praticando",
   "version": "1.0.0",
-  "description": "",
+  "description": "<<<<<<< HEAD ## Iniciando Cypress",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.13.0"
+    "cypress": "^13.13.1"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
     "cypress-mochawesome-reporter": "^3.8.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinaasant0s/cypress-praticando.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marinaasant0s/cypress-praticando/issues"
+  },
+  "homepage": "https://github.com/marinaasant0s/cypress-praticando#readme"
 }
